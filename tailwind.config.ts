@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 const colors = require("tailwindcss/colors");
 
 function addVariablesForColors({ addBase, theme }: any) {
@@ -47,6 +46,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [addVariablesForColors,  require('tailwind-scrollbar')],
 };
 export default config;

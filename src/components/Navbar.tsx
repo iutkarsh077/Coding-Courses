@@ -13,7 +13,6 @@ const Navbar = () => {
         <Menu setActive={setActive}>
             <Link href={"/"}>
             <MenuItem setActive={setActive} active={active} item="Home">
-            
             </MenuItem>
             </Link>
             <MenuItem
@@ -22,14 +21,14 @@ const Navbar = () => {
                <div className="flex flex-col space-y-4 text-sm">
                <HoveredLink href="/courses">All Courses</HoveredLink>
             <HoveredLink href="/courses">
-              Basic Music Theory
+              Basic Coding Fundamentals
             </HoveredLink>
             <HoveredLink href="/courses">
-              Advanced Composition
+              Advanced Algorithms
             </HoveredLink>
-            <HoveredLink href="/courses">Songwriting</HoveredLink>
+            <HoveredLink href="/courses">Clean Code Writing</HoveredLink>
             <HoveredLink href="/courses">
-              Music Production
+              Code In Production
             </HoveredLink>
                </div>
             </MenuItem>

@@ -1,105 +1,104 @@
 {
-    "courses": [
+  "courses": [
       {
-        "id": 1,
-        "title": "Guitar Fundamentals",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-        "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+          "id": 1,
+          "title": "Programming Fundamentals",
+          "slug": "programming-fundamentals",
+          "description": "Learn the basics of programming with our comprehensive beginner's course.",
+          "price": 99.99,
+          "instructor": "John Doe",
+          "isFeatured": true,
+          "image": "https://www.tckpublishing.com/wp-content/uploads/2019/09/Online-Coding-Courses-header.png"
       },
       {
-        "id": 2,
-        "title": "Piano for Beginners",
-        "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-        "price": 109.99,
-        "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+          "id": 2,
+          "title": "Python for Beginners",
+          "slug": "python-for-beginners",
+          "description": "Start your coding journey with foundational Python skills taught by expert instructors.",
+          "price": 109.99,
+          "instructor": "Jane Smith",
+          "isFeatured": false,
+          "image": "https://www.oflox.com/blog/wp-content/uploads/2022/05/Best-Online-Coding-Courses.jpg"
       },
       {
-        "id": 3,
-        "title": "Advanced Vocal Techniques",
-        "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-        "price": 119.99,
-        "instructor": "Emily Johnson",
-        "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+          "id": 3,
+          "title": "Advanced Algorithms",
+          "slug": "advanced-algorithms",
+          "description": "Enhance your coding skills with advanced algorithms for intermediate to advanced learners.",
+          "price": 119.99,
+          "instructor": "Emily Johnson",
+          "isFeatured": true,
+          "image": "https://www.lifewire.com/thmb/zusxzpBh6EYvGzcAknV0F03fW3Q=/2121x1414/filters:fill(auto,1)/GettyImages-973715860-929fd9df683d4e9d990d9b20044b5cdf.jpg"
       },
       {
-        "id": 4,
-        "title": "Drumming Mastery",
-        "slug": "drumming-mastery",
-        "description": "Master the drums with our comprehensive course covering all skill levels.",
-        "price": 129.99,
-        "instructor": "Mike Brown",
-        "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+          "id": 4,
+          "title": "Web Development Mastery",
+          "slug": "web-development-mastery",
+          "description": "Master web development with our comprehensive course covering all skill levels.",
+          "price": 129.99,
+          "instructor": "Mike Brown",
+          "isFeatured": false,
+          "image": "https://www.layerform.com/wp-content/uploads/2020/04/best-online-coding-courses-2-600x498.jpg"
       },
       {
-        "id": 5,
-        "title": "Jazz Improvisation",
-        "slug": "jazz-improvisation",
-        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-        "price": 139.99,
-        "instructor": "Chris Davis",
-        "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+          "id": 5,
+          "title": "Data Science Essentials",
+          "slug": "data-science-essentials",
+          "description": "Learn the essentials of data science to analyze and interpret data effectively.",
+          "price": 139.99,
+          "instructor": "Chris Davis",
+          "isFeatured": false,
+          "image": "https://cdn.mos.cms.futurecdn.net/y8QsVKVBMMmPTfFxbNmnXY-1024-80.jpg"
       },
       {
-        "id": 6,
-        "title": "Music Production Fundamentals",
-        "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-        "price": 149.99,
-        "instructor": "Alex Wilson",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+          "id": 6,
+          "title": "Machine Learning Fundamentals",
+          "slug": "machine-learning-fundamentals",
+          "description": "Dive into machine learning with this introductory course on the basics of ML algorithms and techniques.",
+          "price": 149.99,
+          "instructor": "Alex Wilson",
+          "isFeatured": true,
+          "image": "https://th.bing.com/th/id/OIP.FGa3qFyzKWeRA4_yLdoNqAAAAA?rs=1&pid=ImgDetMain"
       },
       {
-        "id": 7,
-        "title": "Songwriting Essentials",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of songwriting to express your musical creativity.",
-        "price": 159.99,
-        "instructor": "Samantha Miller",
-        "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+          "id": 7,
+          "title": "Software Engineering Principles",
+          "slug": "software-engineering-principles",
+          "description": "Learn the principles of software engineering to develop robust and scalable applications.",
+          "price": 159.99,
+          "instructor": "Samantha Miller",
+          "isFeatured": false,
+          "image": "https://i.ytimg.com/vi/rRZubzZxtVM/maxresdefault.jpg"
       },
       {
-        "id": 8,
-        "title": "Electronic Music Production",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-        "price": 169.99,
-        "instructor": "Luke Harris",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+          "id": 8,
+          "title": "Cybersecurity Fundamentals",
+          "slug": "cybersecurity-fundamentals",
+          "description": "Learn the fundamentals of cybersecurity to protect against cyber threats and attacks.",
+          "price": 169.99,
+          "instructor": "Luke Harris",
+          "isFeatured": true,
+          "image": "https://i.ytimg.com/vi/FKcAPGSajSE/maxresdefault.jpg"
       },
       {
-        "id": 9,
-        "title": "Classical Music History",
-        "slug": "classical-music-history",
-        "description": "Explore the rich history of classical music from its origins to the present day.",
-        "price": 179.99,
-        "instructor": "Grace Lee",
-        "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
+          "id": 9,
+          "title": "Blockchain Technology Basics",
+          "slug": "blockchain-technology-basics",
+          "description": "Explore the basics of blockchain technology and its applications in various industries.",
+          "price": 179.99,
+          "instructor": "Grace Lee",
+          "isFeatured": false,
+          "image": "https://rightpiercing.com/wp-content/uploads/coding-.jpg"
       },
       {
-        "id": 10,
-        "title": "Blues Guitar Techniques",
-        "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-        "price": 189.99,
-        "instructor": "Ethan Moore",
-        "isFeatured": true,
-        "image": "/courses/blues.jpg"
+          "id": 10,
+          "title": "Advanced JavaScript Techniques",
+          "slug": "advanced-javascript-techniques",
+          "description": "Discover advanced JavaScript techniques to build powerful and interactive web applications.",
+          "price": 189.99,
+          "instructor": "Ethan Moore",
+          "isFeatured": true,
+          "image": "https://pbs.twimg.com/media/DEK7kmzXYAAe1z-.jpg"
       }
-    ]
-  }
-  
+  ]
+}
