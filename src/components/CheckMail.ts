@@ -6,7 +6,7 @@ export const sendEmail = async ({email, message}: {email: string, message: strin
   console.log(email, message)
   await sendMail({
     to: email,
-    name: "Coding Courses",
+    name: "Coding Courses ",
     subject: "Your Courses",
     body: compileWelcomeTemplate(message, "https://coding-courses.vercel.app"),
   });
