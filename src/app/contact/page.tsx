@@ -12,7 +12,7 @@ function CodingSchoolContactUs() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
-      console.log("Submitted:", { email, message });
+      // console.log("Submitted:", { email, message });
       sendEmail({ email, message });
       toast.success("Email Sent!", {
         position: "bottom-right",
