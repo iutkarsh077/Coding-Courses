@@ -1,3 +1,5 @@
+"use client"
+import Link from "next/link";
 function Footer() {
   return (
     <footer className="bg-black text-gray-400 py-12">
@@ -14,53 +16,53 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a
+              <Link
                 href="#"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
            
             <li>
-              <a
+              <Link
                 href="/courses"
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
-            <a
+            <Link
               href="#"
               className="hover:text-white transition-colors duration-300"
             >
               Facebook
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-white transition-colors duration-300"
             >
               Twitter
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-white transition-colors duration-300"
             >
               Instagram
-            </a>
+            </Link>
           </div>
         </div>
         <div>
