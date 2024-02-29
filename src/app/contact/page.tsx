@@ -3,6 +3,7 @@
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 import { sendEmail } from '@/components/CheckMail';
+import toast, { Toaster } from 'react-hot-toast';
 
 function CodingSchoolContactUs() {
   const [email, setEmail] = useState('');
@@ -10,13 +11,22 @@ function CodingSchoolContactUs() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log('Submitted:', { email, message });
+    try {
+      console.log('Submitted:', { email, message });
     sendEmail({email, message});
+    toast.success("Email Sent!", {
+      position: 'bottom-right'
+    })
+    } catch (error) {
+      toast.error("Error Occured", {
+        position: 'bottom-right'
+      })
+    }
   };
 
   return (
     <div className="min-h-screen bg-gray-100 ease-in-out dark:bg-gray-900 py-12 pt-36 relative">
-
+      <Toaster/>
       <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0" />
       <div className="max-w-2xl mx-auto p-4 relative z-10">
        
