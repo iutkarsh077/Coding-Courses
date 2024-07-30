@@ -2,18 +2,18 @@
 
 import React, { FormEvent, useState } from "react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { sendEmail } from "@/components/CheckMail";
 import toast, { Toaster } from "react-hot-toast";
+import Sendit from "@/lib/SendIt";
 
 function CodingSchoolContactUs() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
       // console.log("Submitted:", { email, message });
-      sendEmail({ email, message });
+      await Sendit({ to: email, name: "", body: message, subject: "Contact" });
       toast.success("Email Sent!", {
         position: "bottom-right",
       });
