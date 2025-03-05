@@ -35,13 +35,14 @@ export async function sendMail({
     revalidatePath("/contact");
     const sendResult = await transport.sendMail({
       from: SMTP_EMAIL,
-      to,
+      to: SMTP_EMAIL,
       subject,
       html:  `
       <div style="font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f9f9f9; border-radius: 10px;">
         <h1 style="color: #333;">${body}</h1>
         <p style="color: #666;">Thank you for Visting us! Someone is Contacting you.</p>
         <p style="color: #999; font-size: 12px;">Take Care, Have a great Day.</p>
+        <p>The sender email id is: ${to}</p>
       </div>
     `,
     });
